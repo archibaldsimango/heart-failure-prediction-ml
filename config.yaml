@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    admin:
+      email: admin@gmail.com
+      name: Archibald Simango (Admin)
+      password: $2b$12$zOVJd4yQFKlpRDC5Pa2PAOc79sOnezZFAeCsDPtbh8cLxB3Y5UAfm # To be replaced with hashed password
+    doctor:
+      email: doctorarchie@gmail.com
+      name: Dr Archibald Simango
+      password: $2b$12$bMyn7mtdSzNScX.oqS.x1OgnWNGepYLCdPoGyUdnmBqKWN.MUSoNi # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
